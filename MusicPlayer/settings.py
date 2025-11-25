@@ -25,7 +25,16 @@ SECRET_KEY = 'SECRET_KEY'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['music-player-1-10.onrender.com']
+ALLOWED_HOSTS = [
+    'music-player-1-10.onrender.com',
+    'www.music-player-1-10.onrender.com'
+]
+
+CSRF_TRUSTED_ORIGINS = ['https://music-player-1-10.onrender.com']
+
+USE_X_FORWARDED_HOST = True
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+
 
 
 
