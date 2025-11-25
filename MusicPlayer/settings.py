@@ -25,10 +25,10 @@ SECRET_KEY = 'SECRET_KEY'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = [
-    'music-player-1-10.onrender.com',
-    'www.music-player-1-10.onrender.com'
-]
+ALLOWED_HOSTS = [*]
+    
+
+
 
 CSRF_TRUSTED_ORIGINS = ['https://music-player-1-10.onrender.com']
 
