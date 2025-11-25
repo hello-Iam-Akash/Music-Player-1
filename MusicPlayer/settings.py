@@ -26,9 +26,12 @@ SECRET_KEY = 'SECRET_KEY'
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    'music-player-1-10.onrender.com',
-    'www.music-player-1-10.onrender.com',  # if you use www
+    'music-player-1-13.onrender.com',
+    'www.music-player-1-13.onrender.com',
+    'localhost',
+    '127.0.0.1'
 ]
+
     
 
 
